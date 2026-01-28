@@ -57,18 +57,27 @@ a:hover{
 
 #main1{
    display: flex; 
-   height: 90vh;
-   min-height: fit-content;
+   min-height: 100vh;
+   gap: 20px;
    justify-content: center;
    align-items: center;
+   gap: 10px;
+   
+}
+.profile-image{
+ display: flex;
+ justify-content: center;
+
 }
 .profile-image img{
     border-radius: 50%;
-    margin: 0 7rem;
-    object-fit: cover;
+    height: auto;
+    width: 300px;
+
 }
-.text{
-    text-align: center
+.main1-text{
+    text-align: center;
+    max-width: 500px;
 }
 .btn-group{
     margin-top: 0.5rem ;
@@ -98,6 +107,7 @@ a:hover{
 .section-pic-container{
     height: 300px;
     width: 300px;
+
 }
 
 .section-pic-container img{
@@ -206,6 +216,7 @@ a:hover{
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(248, 232, 5, 0.582);
 }
+/*footer*/
 footer{
     margin-top: auto;
     margin-bottom: 30px;
